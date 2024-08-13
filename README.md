@@ -14,9 +14,9 @@ $ cf create-service <service> <service plan> <service name>
 $ cf create-service p.mysql small spring-petclinic-db
 
 * Build and push the application.
-```sh
-cd spring-petclinic-tas
-cf push
-```
+
+$ cd spring-petclinic-tas
+$ cf push
+
 
 
